@@ -8,7 +8,7 @@ import {   makeStyles } from "@material-ui/core";
 const  useStyles = makeStyles(theme => ({
 
   headerTitle: {
-    fontFamily: 'Tangerine',
+   // fontFamily: 'Tangerine',
     fontSize: '5rem'
   }
 }));
@@ -18,6 +18,7 @@ const Header = ({ siteTitle }) =>
   const classes = useStyles();
   return (
   <header
+  style={{fontFamily: "Tangerine"}}
   >
     <div
       style={{

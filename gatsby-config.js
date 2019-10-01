@@ -1,3 +1,5 @@
+
+
 module.exports = {
   siteMetadata: {
     title: `Caroline & Simon`,
@@ -13,7 +15,15 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Tangerine`,
+        ],
+        display: 'swap'
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -21,14 +31,6 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-    },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Tangerine']
-        }
-      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

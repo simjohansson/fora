@@ -6,23 +6,21 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.4.1",
-    "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.15.9",
     "gatsby-image": "^2.2.17",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^2.2.14",
     "gatsby-plugin-material-ui": "^2.1.6",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.1.6",
     "gatsby-plugin-sharp": "^2.2.20",
-    "gatsby-plugin-styled-components": "^3.1.8",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.1.21",
     "gatsby-transformer-sharp": "^2.2.13",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.4.0"
+    "typeface-tangerine": "0.0.72"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
