@@ -1,27 +1,37 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { Navigation } from "./navigation"
+import {   makeStyles } from "@material-ui/core";
 
-const Header = ({ siteTitle }) => (
+
+const  useStyles = makeStyles(theme => ({
+
+  headerTitle: {
+    fontFamily: 'Tangerine',
+    fontSize: '5rem'
+  }
+}));
+
+const Header = ({ siteTitle }) => 
+{
+  const classes = useStyles();
+  return (
   <header
-    style={{
-      marginBottom: `1.45rem`,
-    }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-        borderBottom: '5px solid'
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h2 className={classes.headerTitle}>
         Bröllop 4 juli 2020 Föra Öland
-      </h1>
+      </h2>
     </div>
+    {/* <Navigation/> */}
   </header>
-)
+)}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
