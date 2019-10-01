@@ -10,7 +10,8 @@ const  useStyles = makeStyles(theme => ({
   centerImage: {
     display: 'block',
     marginLeft: 'auto',
-    marginRight: 'auto'
+    marginRight: 'auto',
+    maxWidth: '100vw'
   },
   imageContainer: {
     position: 'relative'
