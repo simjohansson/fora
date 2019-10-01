@@ -60,7 +60,7 @@ const  useStyles = makeStyles(theme => ({
 const IndexPage = () =>{
   const classes = useStyles();
   const title = 'Hej!';
-  const infoText = 'Kul att du har hittat hit! Här kommer information komma om bröllopet så håll utkik!';
+  const infoText = 'Kul att du har hittat hit! Här kommer information finnas om bröllopet så håll utkik!';
   return (
   <Layout>
     <SEO title="Föra bröllop" />
