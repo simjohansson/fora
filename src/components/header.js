@@ -9,7 +9,7 @@ const  useStyles = makeStyles(theme => ({
 
   headerTitle: {
    // fontFamily: 'Tangerine',
-    fontSize: '3rem'
+   // fontSize: '3rem'
   }
 }));
 

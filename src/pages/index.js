@@ -11,14 +11,14 @@ const  useStyles = makeStyles(theme => ({
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    maxWidth: '100vw'
+    maxWidth: '90vw'
   },
   imageContainer: {
     position: 'relative'
   },
   titleTextBlock: {
     position: 'absolute',
-    top: '5rem',
+    top: '0',
     right: '20%',
    // backgroundColor: 'rgba(0,0,0,.7)',
     color: 'white',
@@ -49,13 +49,13 @@ const  useStyles = makeStyles(theme => ({
   mobileText: {
     display: 'none',
     fontFamily: 'Tangerine',
-    fontSize: '3rem',
+    fontSize: '2rem',
     "@media screen and (max-width: 600px)":{
       display: 'block'
     }
 
   },
-    title: { fontSize: '5rem', marginTop: '2rem', marginBottom: '2rem'}
+    title: { fontSize: '3rem', marginTop: '0.5rem', marginBottom: '0.5rem'}
 }))
 
 const IndexPage = () =>{
@@ -69,7 +69,7 @@ const IndexPage = () =>{
     <HeadImage/>
     <div className={classes.titleTextBlock}>{title}</div>
     <div className={classes.infoTextBlock}>{infoText}</div> </div>
-    <div className={classes.mobileText}><div className={classes.title}>{title}</div><p>{infoText}</p></div>
+    <div className={classes.mobileText}><div className={classes.title}>{title}</div><div>{infoText}</div></div>
     <img className={classes.centerImage} src={underconstructiongif} />
   </Layout>
 );
