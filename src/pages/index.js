@@ -58,12 +58,12 @@ const  useStyles = makeStyles(theme => ({
     title: { fontSize: '3rem', marginTop: '0.5rem', marginBottom: '0.5rem'}
 }))
 
-const IndexPage = () =>{
+const IndexPage = (props) =>{
   const classes = useStyles();
   const title = 'Hej!';
   const infoText = 'Kul att du har hittat hit! Här kommer information finnas om bröllopet så håll utkik!';
   return (
-  <Layout>
+  <Layout location={props.location}>
     <SEO title="Föra bröllop" />
     <div className={classes.imageContainer}>
     <HeadImage/>

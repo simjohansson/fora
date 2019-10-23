@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Navigation } from "./navigation"
 import {   makeStyles } from "@material-ui/core";
+import Typography from '@material-ui/core/Typography';
+
 import './navigation.css';
 
 const  useStyles = makeStyles(theme => ({
@@ -13,23 +15,22 @@ const  useStyles = makeStyles(theme => ({
   }
 }));
 
-const Header = ({ siteTitle }) => 
+const Header = ({ siteTitle, location }) => 
 {
   const classes = useStyles();
   return (
   <header
-  style={{fontFamily: "Tangerine"}}
   >
     <div
       style={{
         margin: `0 auto`
       }}
     >
-      <h1 className={classes.headerTitle}>
+      <Typography variant="h4">
         Caroline & Simon 4 juli 2020 Föra Öland
-      </h1>
+      </Typography>
     </div>
-    <Navigation/>
+    <Navigation location={location}/>
   </header>
 )}
 

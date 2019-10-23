@@ -1,15 +1,14 @@
 
-import React from "react"
-
-export const Navigation = () => {
-
+import React from "react";
+import Link from './link';
+export const Navigation = (props) => {
     return (
     <div className="topnav" >
-    <a href="#" className="active">Hem</a>
-    <a href="#">Vigsel</a>
+    <Link className={props.location.pathname === '/' ? 'active' : undefined} to="/">Hem</Link>
+    <Link to="vigsel" >Vigsel</Link>
     <a href="#">Fest</a>
     <a href="#">Ölandstips</a>
-    <a href="#">Boende</a>
+    <Link to="accomendation">Boende</Link>
     <a href="javascript:void(0);"  className="icon" >&#9776;</a>
   </div>)
 }
