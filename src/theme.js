@@ -19,7 +19,10 @@ const theme = createMuiTheme({
     
   },
   typography: {
-    fontFamily: "Tangerine"
+    fontFamily: "Tangerine",
+    body1:{
+      fontFamily: "Arial"
+    }
   },
 });
 
