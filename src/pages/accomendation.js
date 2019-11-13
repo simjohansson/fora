@@ -18,7 +18,7 @@ const accomendations = [
 },
 {
   title: "Stf Hagaby",
-  description: "Stort vandrahem! Här kommer en hel hög av brudenssläkt befinna sig så tänk verkligen efter.",
+  description: "Stort vandrahem! Här kommer en hel hög av brudenssläkt befinna sig.",
   distanceToParty: "19 km",
   typeOfRooms: "Stuga, hängmatta, två till fyrbäddsrum.",
   priceCategory: "Billigare",
@@ -27,8 +27,43 @@ const accomendations = [
   booking: "Kontakta brudens mormor",
   breakfast: "Måste köpas till"
 
-}
+},
+{
+  title: "Äleklintagård",
+  description: "Önskas det ett morgondopp? Här bor man i gränslandet mellan alvaret och strandkanten.",
+  distanceToParty: "12 km",
+  typeOfRooms: "Rum i ett hus, 2 fyrbäddsrum och 1 tvåbäddsrum",
+  priceCategory: "-",
+  other: "",
+  website: "http://aleklintagard.se/",
+  booking: "Nämn Simon vid bokning, då han har preliminärt bokat rummen. Hör gärna av dig om du har bokat!",
+  breakfast: "Tillgång till kök"
 
+},
+{
+  title: "Wannborga",
+  description: "För det vinälskande sällskapet",
+  distanceToParty: "15 km",
+  typeOfRooms: "Två hus med flera dubbelrum",
+  priceCategory: "-",
+  other: "Hela huset måste hyras, perfekt för er som vill gå ihop.",
+  website: "http://wannborga.se/",
+  booking: "Kontakta brudparet",
+  breakfast: "Oklart"
+
+},
+{
+title: "Festlokalen",
+description: "Tänker du gå sist från festen? Varför inte bo på plats!",
+distanceToParty: "En trappa",
+typeOfRooms: "Loft och bibliotek",
+priceCategory: "Gratis",
+other: "Ta med sovsäck och liggunderlag/madrass. Obs! Dusch saknas.",
+website: "",
+booking: "Kontakta brudparet",
+breakfast: "Saknas, (Kvarglömda chips)"
+
+},
 ]
 
 
@@ -56,7 +91,7 @@ const AccomendationPage = (props) => {
         <Typography variant="h1">Boende</Typography>
 
         <Typography variant="h2">Här kommer lite tips var man kan vila sig innan och efter festen.</Typography>
-       
+        <Paper><Typography variant="body1">Detta är bara några av alla möjliga boenden på Öland. Kanske hittar du ett annat ställe som lockar mer? Glöm bara inte av att boka i tid!</Typography></Paper>
        {accomendations.map((accomendation, index) =>  
        <Paper key={index} className={classes.accomendationPaper}>
         <Typography variant="h3">{accomendation.title}</Typography>
@@ -80,6 +115,7 @@ const AccomendationPage = (props) => {
        </TableBody> </Table>
        
        </Paper>)}
+       
       </Container>
     </Layout>
   );
