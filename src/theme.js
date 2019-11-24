@@ -22,6 +22,9 @@ const theme = createMuiTheme({
     fontFamily: "Tangerine",
     body1: {
       fontFamily: "Arial"
+    },
+    h1: {
+      paddingTop: '1rem'
     }
   },
 });

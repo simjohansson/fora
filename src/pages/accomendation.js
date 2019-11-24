@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Typography from '@material-ui/core/Typography';
 import { Container, Paper, Table, TableRow, TableCell, Link, TableBody } from "@material-ui/core";
 import {   makeStyles } from "@material-ui/core";
+import SEO from "../components/seo"
 
 const accomendations = [
 {
@@ -36,7 +37,7 @@ const accomendations = [
   priceCategory: "-",
   other: "",
   website: "http://aleklintagard.se/",
-  booking: "Nämn Simon vid bokning, då han har preliminärt bokat rummen. Hör gärna av dig om du har bokat!",
+  booking: "Nämn Simon vid bokning, då han har preliminärt bokat rummen. Hör gärna av dig till brudparet om du har bokat!",
   breakfast: "Tillgång till kök"
 
 },
@@ -87,11 +88,12 @@ const AccomendationPage = (props) => {
   const classes = useStyles();
     return (
     <Layout location={props.location}>
+      <SEO title="Boende" />
       <Container>
         <Typography variant="h1">Boende</Typography>
 
         <Typography variant="h2">Här kommer lite tips var man kan vila sig innan och efter festen.</Typography>
-        <Paper><Typography variant="body1">Detta är bara några av alla möjliga boenden på Öland. Kanske hittar du ett annat ställe som lockar mer? Glöm bara inte av att boka i tid!</Typography></Paper>
+        <Typography variant="body1">Detta är bara några av alla möjliga boenden på Öland. Kanske hittar du ett annat ställe som lockar mer? Glöm bara inte av att boka i tid!</Typography>
        {accomendations.map((accomendation, index) =>  
        <Paper key={index} className={classes.accomendationPaper}>
         <Typography variant="h3">{accomendation.title}</Typography>

@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeadImage from "../components/image";
+import {HeadImage} from "../components/headimage";
 import SEO from "../components/seo"
 import underconstructiongif from '../gifs/underconstruction.gif'
 import {   makeStyles } from "@material-ui/core";
@@ -20,7 +20,7 @@ const  useStyles = makeStyles(theme => ({
     position: 'absolute',
     top: '0',
     right: '20%',
-   // backgroundColor: 'rgba(0,0,0,.7)',
+   //backgroundColor: 'rgba(0,0,0,.4)',
     color: 'white',
     paddingLeft: '1rem',
     paddingRight: '1rem',
@@ -34,12 +34,12 @@ const  useStyles = makeStyles(theme => ({
     position: 'absolute',
     top: '10rem',
     right: '0rem',
-   // backgroundColor: 'rgba(0,0,0,.7)',
+  // backgroundColor: 'rgba(0,0,0,.4)',
     color: 'white',
     paddingLeft: '1rem',
     paddingRight: '1rem',
     fontFamily: 'Tangerine',
-    fontSize: '5vw',
+    fontSize: '4vw',
     maxWidth: '40vw',
     lineHeight: '1em',
     "@media screen and (max-width: 600px)":{
@@ -61,16 +61,16 @@ const  useStyles = makeStyles(theme => ({
 const IndexPage = (props) =>{
   const classes = useStyles();
   const title = 'Hej!';
-  const infoText = 'Kul att du har hittat hit! Här kommer information finnas om bröllopet så håll utkik!';
+  const infoText = 'Kul att du har hittat hit! Nu har det kommit upp information angående boende!';
   return (
   <Layout location={props.location}>
     <SEO title="Föra bröllop" />
     <div className={classes.imageContainer}>
     <HeadImage/>
     <div className={classes.titleTextBlock}>{title}</div>
-    <div className={classes.infoTextBlock}>{infoText}</div> </div>
+    <div className={classes.infoTextBlock}>{infoText}</div></div> 
     <div className={classes.mobileText}><div className={classes.title}>{title}</div><div>{infoText}</div></div>
-    <img className={classes.centerImage} src={underconstructiongif} />
+    <img className={classes.centerImage} src={underconstructiongif} alt="Loading" />
   </Layout>
 );
 }
