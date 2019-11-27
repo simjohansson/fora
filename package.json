@@ -28,6 +28,9 @@
   "keywords": [
     "gatsby"
   ],
+  "engines": {
+    "node": "12.10.0"
+  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
