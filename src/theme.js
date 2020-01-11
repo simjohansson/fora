@@ -25,6 +25,11 @@ const theme = createMuiTheme({
     },
     h1: {
       paddingTop: '1rem'
+    },
+    h2:{
+      lineHeight: "0.8",
+      marginTop: "1rem",
+      marginBottom: "1rem"
     }
   },
 });
