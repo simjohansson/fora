@@ -12,15 +12,17 @@ const PartyPage = (props) => {
             <PartyImage />
             <Container>
                 <Typography variant="h1">Fest</Typography>
-                <p><Typography variant="body1">Efter vigseln fortsätter firandet i Föragården som ligger på gångavstånd från kyrkan.
-                Här kommer vi mingla, äta och dansa hela natten lång!</Typography></p>
+                <br/>
+                <Typography variant="body1">Efter vigseln fortsätter firandet i Föragården som ligger på gångavstånd från kyrkan.
+                Här kommer vi mingla, äta och dansa hela natten lång!</Typography>
+                <br/>
                 <Typography variant="body1">
                     De skulle vara jätteroligt om du vill hålla ett tal, sjunga, spexa eller dela med dig av något annat under festen. Anmäl ditt viktiga bidrag senast den 31 maj till:</Typography>
                 <Typography variant="body1"> Epost: <a style={{ color: "darkgreen" }} href="mailto:forabrollop@gmail.com">forabrollop@gmail.com</a> </Typography>
                 <Typography variant="body1"> Sms/telefon: 0768902918 </Typography>
-                <p>
+                <br/>
                     <Typography variant="body1">Bröllopsfesten är en tillställning med vuxna i åtanke. Önskar du ha med ditt eller dina barn är det bra att veta att det inte kommer arrangeras något speciellt upplägg för dem.</Typography>
-                </p>
+                <br/>
                 <Typography variant="h2">Möt Våra Toastmasters</Typography>
                 <ToastMastersImage />
                 <Typography variant="body1">
