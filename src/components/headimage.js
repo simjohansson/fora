@@ -25,7 +25,7 @@ export const HeadImage = () => {
       }
     }
   `)
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} style={{heigth:"50%"}} alt="Simon och Caroline" />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Simon och Caroline" />
 }
 
 
