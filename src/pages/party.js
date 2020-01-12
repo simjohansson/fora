@@ -17,11 +17,11 @@ const PartyPage = (props) => {
                 Här kommer vi mingla, äta och dansa hela natten lång!</Typography>
                 <br/>
                 <Typography variant="body1">
-                    De skulle vara jätteroligt om du vill hålla ett tal, sjunga, spexa eller dela med dig av något annat under festen. Anmäl ditt viktiga bidrag till våra toastmasters senast den 31 maj till:</Typography>
-                <Typography variant="body1"> Epost: <a style={{ color: "darkgreen" }} href="mailto:forabrollop@gmail.com">forabrollop@gmail.com</a> </Typography>
-                <Typography variant="body1"> Sms/telefon: 0768902918 </Typography>
+                    De skulle vara jätteroligt om du vill hålla ett tal, sjunga, spexa eller dela med dig av något annat under festen.</Typography><Typography variant="body1"> Anmäl ditt viktiga bidrag till våra toastmasters senast den <b>31 maj</b>:</Typography>
+                <Typography variant="body1"> Epost till toastmasters: <a style={{ color: "darkgreen" }} href="mailto:forabrollop@gmail.com">forabrollop@gmail.com</a> </Typography>
+                <Typography variant="body1"> Sms/telefon till Matilda: 0768902918 </Typography>
                 <br/>
-                    <Typography variant="body1">Bröllopsfesten är en tillställning med vuxna i åtanke. Önskar du ha med ditt eller dina barn är det bra att veta att det inte kommer arrangeras något speciellt upplägg för dem.</Typography>
+                    <Typography variant="body1">Bröllopsfesten är tänkt som en tillställning för vuxna. Har du ha med ditt eller dina barn är det bra att veta att det inte kommer arrangeras något särskilt för dem.</Typography>
                 <br/>
                 <Typography variant="h2">Möt Våra Toastmasters</Typography>
                 <ToastMastersImage />

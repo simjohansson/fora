@@ -10,8 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/styles';
-import Header from "./header"
-import theme from '../theme'
+import Header from "./header";
+import Footer from "./footer";
+import theme from '../theme';
 
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
@@ -32,6 +33,7 @@ const Layout = ({ children, location }) => {
         <CssBaseline />
         <main >{children}</main>
       </div>
+      <Footer/>
       </ThemeProvider>
   )
 }

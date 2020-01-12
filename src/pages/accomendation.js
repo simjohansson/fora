@@ -25,7 +25,7 @@ const accomendations = [
     priceCategory: "Billigare",
     other: "Här kommer det antagligen arrangeras en grillning på fredagen innan bröllopet. Bastu och utegym finns tillgängligt.",
     website: "https://www.svenskaturistforeningen.se/boende/stf-hagabylantgarden-vandrarhem/",
-    booking: "Kontakta ansvariga.",
+    booking: "Kontakta Stf Hagaby.",
     breakfast: "Köp till eller fixa eget."
 
   },
