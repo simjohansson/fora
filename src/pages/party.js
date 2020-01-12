@@ -17,7 +17,7 @@ const PartyPage = (props) => {
                 Här kommer vi mingla, äta och dansa hela natten lång!</Typography>
                 <br/>
                 <Typography variant="body1">
-                    De skulle vara jätteroligt om du vill hålla ett tal, sjunga, spexa eller dela med dig av något annat under festen. Anmäl ditt viktiga bidrag senast den 31 maj till:</Typography>
+                    De skulle vara jätteroligt om du vill hålla ett tal, sjunga, spexa eller dela med dig av något annat under festen. Anmäl ditt viktiga bidrag till våra toastmasters senast den 31 maj till:</Typography>
                 <Typography variant="body1"> Epost: <a style={{ color: "darkgreen" }} href="mailto:forabrollop@gmail.com">forabrollop@gmail.com</a> </Typography>
                 <Typography variant="body1"> Sms/telefon: 0768902918 </Typography>
                 <br/>
@@ -26,7 +26,7 @@ const PartyPage = (props) => {
                 <Typography variant="h2">Möt Våra Toastmasters</Typography>
                 <ToastMastersImage />
                 <Typography variant="body1">
-                    Med denna härliga trio har man aldrig tråkigt! Jenny, Julia och Matilda kan allt från handboll till fiske och vi kan tryggt lämna över festen i deras händer!
+                    Med denna härliga trio har man aldrig tråkigt! Jenny, Julia och Matilda kan allt från handboll till fiske och vi lämnar med glädje över festen i deras händer!
                 </Typography>
 
             </Container>
