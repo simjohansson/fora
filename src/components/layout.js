@@ -13,14 +13,8 @@ import { ThemeProvider } from '@material-ui/styles';
 import Header from "./header";
 import Footer from "./footer";
 import theme from '../theme';
-import { makeStyles } from "@material-ui/core";
-
-const useStyles = makeStyles(theme => ({
-  container: { position: "relative", minHeight: "100%", paddingBottom: "6rem" }
-}));
 
 const Layout = ({ children, location }) => {
-  const { container } = useStyles();
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -33,7 +27,7 @@ const Layout = ({ children, location }) => {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className={container}>
+      <div>
         <Header siteTitle={data.site.siteMetadata.title} location={location} />
 
         <CssBaseline />
