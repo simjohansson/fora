@@ -4,11 +4,13 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
     footer: {
-        height: "4rem",
-        marginTop: "2rem",
         backgroundColor: theme.palette.primary.main,
         color: "white",
-        padding: "1rem"
+        padding: "1rem",
+        position: "absolute",
+        bottom: 0,
+        left: 0,
+        right: 0
     }
 }));
 
