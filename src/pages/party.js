@@ -21,7 +21,7 @@ const PartyPage = (props) => {
                 <Typography variant="body1"> Epost till toastmasters: <a style={{ color: "darkgreen" }} href="mailto:forabrollop@gmail.com">forabrollop@gmail.com</a> </Typography>
                 <Typography variant="body1"> Sms/telefon till Matilda: 0768902918 </Typography>
                 <br/>
-                    <Typography variant="body1">Bröllopsfesten är tänkt som en tillställning för vuxna. Har du ha med ditt eller dina barn är det bra att veta att det inte kommer arrangeras något särskilt för dem.</Typography>
+                    <Typography variant="body1">Bröllopsfesten är tänkt som en tillställning för vuxna. Har du med dig ditt eller dina barn är det bra att veta att det inte kommer arrangeras något särskilt för dem.</Typography>
                 <br/>
                 <Typography variant="h2">Möt Våra Toastmasters</Typography>
                 <ToastMastersImage />
