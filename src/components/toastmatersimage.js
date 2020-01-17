@@ -27,5 +27,5 @@ export const ToastMastersImage = () => {
     }
   `)
 
-  return <Img style={{borderRadius: "30px", maxWidth: "550px"}} fluid={data.placeholderImage.childImageSharp.fluid} alt="toastmasters" />
+  return <Img style={{borderRadius: "30px", maxWidth: "550px", marginBottom:"10px"}} fluid={data.placeholderImage.childImageSharp.fluid} alt="toastmasters" />
 }

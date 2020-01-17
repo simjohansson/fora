@@ -4,10 +4,11 @@ import SEO from "../components/seo";
 import { Container, Typography } from "@material-ui/core";
 import { PartyImage } from "../components/partyimage";
 import { ToastMastersImage } from "../components/toastmatersimage";
-
+import Confetti from 'react-confetti';
 const PartyPage = (props) => {
     return (
         <Layout location={props.location}>
+            <Confetti recycle={false} />
             <SEO title="Fest" />
             <PartyImage />
             <Container>
