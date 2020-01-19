@@ -6,7 +6,7 @@ import { Container, Typography } from "@material-ui/core";
 
 const WeddingPage = (props) => {
     return (
-        <Layout location={props.location}>
+        <>
             <SEO title="Vigsel" />
             <ChurchImage />
             <Container>
@@ -24,7 +24,7 @@ const WeddingPage = (props) => {
 </Typography>
                 {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2172.2765285987966!2d16.864804715979826!3d57.01257198090899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46f808f8612fb311%3A0x2925491fbcb701a6!2sF%C3%B6ra%20Kyrkgata%201%2C%20387%2091%20Borgholm!5e0!3m2!1ssv!2sse!4v1578758659408!5m2!1ssv!2sse" width="400" height="300" frameborder="0" style={{ border: 0 }} allowfullscreen=""></iframe> */}
             </Container>
-        </Layout>);
+        </>);
 }
 
 export default WeddingPage

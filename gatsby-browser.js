@@ -1,3 +1,6 @@
+import Layout from "./src/components/layout";
+import React from "react"
+
 /**
  * Implement Gatsby's Browser APIs in this file.
  *
@@ -5,3 +8,7 @@
  */
 
 // You can delete this file if you're not using it
+
+export const wrapPageElement = ({ element, props }) => (
+    <Layout {...props}>{element}</Layout>
+  );

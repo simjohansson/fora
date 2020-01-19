@@ -95,7 +95,7 @@ const useStyles = makeStyles(theme => ({
 const AccomendationPage = (props) => {
   const classes = useStyles();
   return (
-    <Layout location={props.location}>
+    <>
       <SEO title="Boende" />
       <Container>
         <Typography variant="h1">Boende</Typography>
@@ -147,7 +147,7 @@ const AccomendationPage = (props) => {
           </ul>
         </Paper>
       </Container>
-    </Layout>
+    </>
   );
 }
 export default AccomendationPage

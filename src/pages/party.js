@@ -7,7 +7,7 @@ import { ToastMastersImage } from "../components/toastmatersimage";
 import Confetti from 'react-confetti';
 const PartyPage = (props) => {
     return (
-        <Layout location={props.location}>
+        <>
             <Confetti recycle={false} />
             <SEO title="Fest" />
             <PartyImage />
@@ -31,7 +31,7 @@ const PartyPage = (props) => {
                 </Typography>
 
             </Container>
-        </Layout>);
+        </>);
 }
 
 export default PartyPage

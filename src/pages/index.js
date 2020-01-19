@@ -63,7 +63,7 @@ const IndexPage = (props) =>{
   const title = 'Hej!';
   const infoText = 'Kul att du har hittat hit! Nu har det kommit upp information angående boende, vigsel och fest!';
   return (
-  <Layout location={props.location}>
+  <>
     <SEO title="Föra bröllop" />
     <div className={classes.imageContainer}>
     <HeadImage/>
@@ -71,7 +71,7 @@ const IndexPage = (props) =>{
     <div className={classes.infoTextBlock}>{infoText}</div></div> 
     <div className={classes.mobileText}><div className={classes.title}>{title}</div><div>{infoText}</div></div>
     <img className={classes.centerImage} src={underconstructiongif} alt="Loading" />
-  </Layout>
+  </>
 );
 }
 export default IndexPage
