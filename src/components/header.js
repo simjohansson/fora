@@ -17,17 +17,20 @@ const useStyles = makeStyles(theme => ({
   languagePicker: {
     paddingBottom: '0 !important',
     marginRight: "1rem"
+  },
+  headerText: {
+    padding: "0.5rem"
   }
 }));
 
 const Header = ({ location, setLanguage }) => {
-  const { container, languagePicker } = useStyles();
+  const { container, languagePicker, headerText } = useStyles();
   return (
     <header>
       <div
         className={container}
       >
-        <Typography variant="h4">4 juli 2020 Föra Öland
+        <Typography className={headerText} variant="h5">4 juli 2020 Föra Öland
       </Typography>
         <ReactFlagsSelect
          className={languagePicker}
