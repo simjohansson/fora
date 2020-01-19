@@ -4,5 +4,16 @@
     "navigation.wedding":  "Wedding",
     "navigation.party":  "Party",
     "home.imagehello": "Hello!",
-    "home.imagedescription": "Read the pages!"
+    "home.imagedescription": "Pleased to see you here! Now information has come up about accommodation, wedding and party!",
+    "accomendation.title": "Accomendation",
+    "accomendation.subtitle": "Here are some tips on where to rest before and after the party.",
+    "accomendation.description": "These are just some of all possible accommodations on Öland. Maybe you find another place that attracts more? Just don't forget to book in time!",
+    "accomendation.distanceToParty": "Distance to the party",
+"accomendation.typeOfRoom": "Type of room",
+"accomendation.other": "Other",
+"accomendation.website": "Website",
+"accomendation.booking": "Booking",
+"accomendation.breakfast": "Breakfast",
+"accomendation.otherPlaces":"Other places to check out ...",
+"accomendation.clickHere": "Click here"
 }
