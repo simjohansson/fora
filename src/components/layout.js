@@ -13,7 +13,7 @@ import { ThemeProvider } from '@material-ui/styles';
 import Header from "./header";
 import Footer from "./footer";
 import theme from '../theme';
-import { IntlProvider, FormattedMessage } from "react-intl";
+import { IntlProvider } from "react-intl";
 import sv from '../translations/sv.json';
 import en from '../translations/en.json';
 

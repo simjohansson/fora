@@ -1,5 +1,5 @@
-import React from "react";
-import Layout from '../components/layout'
+import React, { useContext } from "react"
+import Layout, { LanguageContext } from "../components/layout"
 import Typography from '@material-ui/core/Typography';
 import { Container, Paper, Table, TableRow, TableCell, Link, TableBody } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
