@@ -2,5 +2,8 @@
     "navigation.home":  "Hem",
     "navigation.accomendation":  "Boende",
     "navigation.wedding":  "Vigsel",
-    "navigation.party":  "Fest"
+    "navigation.party":  "Fest",
+    "home.imagehello": "Hej!",
+    "home.imagedescription": "Kul att du har hittat hit! Nu har det kommit upp information angående boende, vigsel och fest!"
+
 }

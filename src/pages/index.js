@@ -1,5 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
+import { FormattedMessage } from "react-intl";
+
 import {HeadImage} from "../components/headimage";
 import SEO from "../components/seo"
 import underconstructiongif from '../gifs/underconstruction.gif'
@@ -67,8 +68,8 @@ const IndexPage = (props) =>{
     <SEO title="Föra bröllop" />
     <div className={classes.imageContainer}>
     <HeadImage/>
-    <div className={classes.titleTextBlock}>{title}</div>
-    <div className={classes.infoTextBlock}>{infoText}</div></div> 
+    <div className={classes.titleTextBlock}><FormattedMessage id="home.imagehello"/></div>
+    <div className={classes.infoTextBlock}><FormattedMessage id="home.imagedescription"/></div></div> 
     <div className={classes.mobileText}><div className={classes.title}>{title}</div><div>{infoText}</div></div>
     <img className={classes.centerImage} src={underconstructiongif} alt="Loading" />
   </>

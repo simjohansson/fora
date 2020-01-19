@@ -2,5 +2,7 @@
     "navigation.home":  "Home",
     "navigation.accomendation":  "Accomendation",
     "navigation.wedding":  "Wedding",
-    "navigation.party":  "Party"
+    "navigation.party":  "Party",
+    "home.imagehello": "Hello!",
+    "home.imagedescription": "Read the pages!"
 }

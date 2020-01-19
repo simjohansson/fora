@@ -1,5 +1,6 @@
 import Layout from "./src/components/layout";
 import React from "react"
+import Footer from "./src/components/footer";
 
 /**
  * Implement Gatsby's Browser APIs in this file.
@@ -10,5 +11,6 @@ import React from "react"
 // You can delete this file if you're not using it
 
 export const wrapPageElement = ({ element, props }) => (
-    <Layout {...props}>{element}</Layout>
+    <Layout {...props}>{element}
+    <Footer /></Layout>
   );

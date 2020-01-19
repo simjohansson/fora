@@ -43,7 +43,6 @@ const Layout = ({ children, location }) => {
         <Header siteTitle={data.site.siteMetadata.title} location={location} setLanguage={setLanguage} />
         <CssBaseline />
         <main >{children}</main>
-        <Footer />
       </div>
       </IntlProvider>
     </ThemeProvider>
