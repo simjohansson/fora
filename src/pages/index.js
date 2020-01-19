@@ -70,7 +70,7 @@ const IndexPage = (props) =>{
     <HeadImage/>
     <div className={classes.titleTextBlock}><FormattedMessage id="home.imagehello"/></div>
     <div className={classes.infoTextBlock}><FormattedMessage id="home.imagedescription"/></div></div> 
-    <div className={classes.mobileText}><div className={classes.title}>{title}</div><div>{infoText}</div></div>
+    <div className={classes.mobileText}><div className={classes.title}><FormattedMessage id="home.imagehello"/></div><div><FormattedMessage id="home.imagedescription"/></div></div>
     <img className={classes.centerImage} src={underconstructiongif} alt="Loading" />
   </>
 );

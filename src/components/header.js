@@ -11,22 +11,27 @@ import './navigation.css';
 const useStyles = makeStyles(theme => ({
   container: {
     display: "flex",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
+    height: "3rem"
+  },
+  languagePicker: {
+    paddingBottom: '0 !important',
+    marginRight: "1rem"
   }
 }));
 
 const Header = ({ location, setLanguage }) => {
-  const { container } = useStyles();
+  const { container, languagePicker } = useStyles();
   return (
     <header>
       <div
         className={container}
       >
-        <Typography variant="h4">
-          Caroline & Simon 4 juli 2020 Föra Öland
+        <Typography variant="h4">4 juli 2020 Föra Öland
       </Typography>
         <ReactFlagsSelect
-          placeholder="Select Language"
+         className={languagePicker}
+          placeholder="Language"
           selectedSize={25}
           alignOptions="left"
           countries={["SE", "GB"]}
