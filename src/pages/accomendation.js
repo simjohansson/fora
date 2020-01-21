@@ -157,7 +157,10 @@ const useStyles = makeStyles(theme => ({
 }))
 const AccomendationPage = (props) => {
   const classes = useStyles();
-  const intl = useIntl();
+  let intl = useIntl();
+  if (!intl.locale){
+    intl.locale = "sv-se";
+  }
   return (
     <>
       <SEO title="Boende" />
