@@ -158,7 +158,7 @@ const useStyles = makeStyles(theme => ({
 const AccomendationPage = (props) => {
   const classes = useStyles();
   let intl = useIntl();
-  if (!intl.locale){
+  if (intl.locale !== "sv-se" && intl.locale !== "en-gb"){
     intl.locale = "sv-se";
   }
   return (
