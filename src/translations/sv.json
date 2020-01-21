@@ -16,6 +16,18 @@
 "accomendation.booking": "Vid bokning",
 "accomendation.breakfast": "Frukost",
 "accomendation.otherPlaces": "Andra ställen att kolla in...",
-"accomendation.clickHere": "Klicka här"
-
+"wedding.title": "Vigsel",
+"wedding.firstSection": "Vigseln kommer äga rum 4 juli klockan 14.00 i Föra kyrka, Föra Kyrkgata 1, 387 91 Borgholm.",
+"wedding.secondSection": "Kommer du med bil finns en parkering vid festlokalen Föragården, Föra 88, 387 91 Borgholm. Därifrån är det gångavstånd till kyrkan. Närmaste busshållplats heter 'Föra vsk' och ligger 1,5 km från kyrkan. Har du funderingar hur du ska komma till kyrkan är det bara att höra av sig!",
+"wedding.whatToWearTitle": "Vad ska man då ha för kläder?",
+"wedding.whatToWearDescription": "Klädkoden för dagen är sommarfin så ta på dig något du tycker passar på ett bröllop och känner dig fin i!",
+"party.title": "Fest",
+"party.firstSection": "Efter vigseln fortsätter firandet i Föragården som ligger på gångavstånd från kyrkan. Här kommer vi mingla, äta och dansa hela natten lång!",
+"party.secondSection": "De skulle vara jätteroligt om du vill hålla ett tal, sjunga, spexa eller dela med dig av något annat under festen.",
+"party.thirdSection": "Anmäl ditt viktiga bidrag till våra toastmasters senast den <b>31 maj</b>:",
+"party.email": "Epost till toastmasters: <a style={{ color: 'darkgreen' }} href='mailto:forabrollop@gmail.com'>forabrollop@gmail.com</a>",
+"party.telephone": "Sms/telefon till Matilda: 0768902918",
+"party.aboutChildren": "Bröllopsfesten är tänkt som en tillställning för vuxna. Har du med dig ditt eller dina barn är det bra att veta att det inte kommer arrangeras något särskilt för dem.",
+"party.meetToastmasters": "Möt Våra Toastmasters",
+"party.aboutToastmasters": "Med denna härliga trio har man aldrig tråkigt! Jenny, Julia och Matilda kan allt från handboll till fiske och vi lämnar med glädje över festen i deras händer!"
 }

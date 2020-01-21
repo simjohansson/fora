@@ -15,5 +15,19 @@
 "accomendation.booking": "Booking",
 "accomendation.breakfast": "Breakfast",
 "accomendation.otherPlaces":"Other places to check out ...",
-"accomendation.clickHere": "Click here"
+"accomendation.clickHere": "Click here",
+"wedding.title": "Wedding",
+"wedding.firstSection": "The wedding will occur the 4 of July  at 14.00 in Föra kyrka, Föra Kyrkgata 1, 387 91 Borgholm, Sweden.",
+"wedding.secondSection": "Will you arrive by car (or motorbike?!) is there a parking at the party location, Föragården, Föra 88, 387 91 Borgholm, Sweden. From there it's walking distance to the church. Closest busstation is called 'Föra vsk' and is located 1,5 km from the church. Do you have any question about getting to the church, just get in touch!",
+"wedding.whatToWearTitle": "What to wear at this occasion?",
+"wedding.whatToWearDescription": "The dress code for the day is 'summer pretty' so put on something that you think fits a wedding and feel pretty in!",
+"party.title": "Party",
+"party.firstSection": "After the wedding the celebration will continue in Föragården, which is within walking distance of the church. Here we will mingle, eat and dance all night long!",
+"party.secondSection": "We would anticipate it with pleasure if you wanted to give a speech, sing or share something else during the party.",
+"party.thirdSection": "Submit your important contribution to our toastmasters by the latest of <b>May 31</b>:",
+"party.email": "Email to toastmasters: <a style={{ color: 'darkgreen' }} href='mailto:forabrollop@gmail.com'>forabrollop@gmail.com</a>",
+"party.telephone": "Text/phone to Matilda: +460768902918",
+"party.aboutChildren": "The wedding party is intended as an event for adults. If you bring your children, it is good to know that nothing special will be arranged for them",
+"party.meetToastmasters": "Meet our Toastmasters",
+"party.aboutToastmasters": "With this lovely trio you will never get bored! Jenny, Julia and Matilda know everything from handball to fishing and we gladly leave the party in their hands!"
 }

@@ -23,6 +23,7 @@
     "react-flags-select": "^1.1.10",
     "react-helmet": "^5.2.1",
     "react-intl": "^3.11.0",
+    "react-use": "^13.21.0",
     "typeface-tangerine": "0.0.72"
   },
   "devDependencies": {

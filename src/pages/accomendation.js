@@ -165,13 +165,14 @@ const AccomendationPage = (props) => {
     <>
       <SEO title="Boende" />
       <Container>
-        <Typography variant="h1"><FormattedMessage id="accomendation.title"/></Typography>
+        <Typography variant="h2"><FormattedMessage id="accomendation.title"/></Typography>
 
-        <Typography variant="h2"><FormattedMessage id="accomendation.subtitle"/></Typography>
+        <Typography variant="body1"><FormattedMessage id="accomendation.subtitle"/></Typography>
+        <br/>
         <Typography variant="body1"><FormattedMessage id="accomendation.description"/></Typography>
         {accomendations.map((accomendation, index) =>
           <Paper key={index} className={classes.accomendationPaper}>
-            <Typography variant="h3">{accomendation[intl.locale].title}</Typography>
+            <Typography variant="h4">{accomendation[intl.locale].title}</Typography>
             <Typography className={classes.accomendationDescription} variant="body1">{accomendation[intl.locale].description}</Typography>
             {accomendation[intl.locale].distanceToParty && <Table className={classes.table} aria-label="simple table">
               <TableBody>
@@ -203,7 +204,7 @@ const AccomendationPage = (props) => {
 
           </Paper>)}
         <Paper className={classes.accomendationPaper}>
-          <Typography variant="h3"><FormattedMessage id="accomendation.otherPlaces"/></Typography>
+          <Typography variant="h4"><FormattedMessage id="accomendation.otherPlaces"/></Typography>
           <ul>
             {otherPlaces.places.map((x, index) =>
               <li key={index}>
