@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/core";
 import SEO from "../components/seo"
 import { useIntl, FormattedMessage } from "react-intl";
 
-const accomendations = [
+const accommodations = [
   {"sv-se": {
     title: "ÖlandsRo",
     description: "Boendet närmst lokalen, här kommer det finnas en fin fin frukost!",
@@ -137,11 +137,11 @@ const otherPlaces = {
 
 }
 const useStyles = makeStyles(theme => ({
-  accomendationPaper: {
+  accommodationPaper: {
     marginTop: "3rem",
     padding: "1rem",
   },
-  accomendationDescription: {
+  accommodationDescription: {
     marginBottom: "1rem",
     marginTop: "1rem",
   },
@@ -155,7 +155,7 @@ const useStyles = makeStyles(theme => ({
     padding: "5px 5px 10px 5px"
   }
 }))
-const AccomendationPage = (props) => {
+const AccommodationPage = (props) => {
   const classes = useStyles();
   let intl = useIntl();
   if (intl.locale !== "sv-se" && intl.locale !== "en-gb"){
@@ -165,46 +165,46 @@ const AccomendationPage = (props) => {
     <>
       <SEO title="Boende" />
       <Container>
-        <Typography variant="h2"><FormattedMessage id="accomendation.title"/></Typography>
+        <Typography variant="h2"><FormattedMessage id="accommodation.title"/></Typography>
 
-        <Typography variant="body1"><FormattedMessage id="accomendation.subtitle"/></Typography>
+        <Typography variant="body1"><FormattedMessage id="accommodation.subtitle"/></Typography>
         <br/>
-        <Typography variant="body1"><FormattedMessage id="accomendation.description"/></Typography>
-        {accomendations.map((accomendation, index) =>
-          <Paper key={index} className={classes.accomendationPaper}>
-            <Typography variant="h4">{accomendation[intl.locale].title}</Typography>
-            <Typography className={classes.accomendationDescription} variant="body1">{accomendation[intl.locale].description}</Typography>
-            {accomendation[intl.locale].distanceToParty && <Table className={classes.table} aria-label="simple table">
+        <Typography variant="body1"><FormattedMessage id="accommodation.description"/></Typography>
+        {accommodations.map((accommodation, index) =>
+          <Paper key={index} className={classes.accommodationPaper}>
+            <Typography variant="h4">{accommodation[intl.locale].title}</Typography>
+            <Typography className={classes.accommodationDescription} variant="body1">{accommodation[intl.locale].description}</Typography>
+            {accommodation[intl.locale].distanceToParty && <Table className={classes.table} aria-label="simple table">
               <TableBody>
                 <TableRow><TableCell className={classes.cell}>
-                  <Typography className={classes.noWrapLabel} variant="body1"><FormattedMessage id="accomendation.distanceToParty"/>: </Typography></TableCell>
+                  <Typography className={classes.noWrapLabel} variant="body1"><FormattedMessage id="accommodation.distanceToParty"/>: </Typography></TableCell>
                   <TableCell className={classes.cell}>
-                    <Typography variant="body1">{accomendation[intl.locale].distanceToParty}</Typography></TableCell></TableRow>
+                    <Typography variant="body1">{accommodation[intl.locale].distanceToParty}</Typography></TableCell></TableRow>
                 <TableRow><TableCell className={classes.cell}>
-                  <Typography variant="body1"><FormattedMessage id="accomendation.typeOfRoom"/>: </Typography></TableCell>
+                  <Typography variant="body1"><FormattedMessage id="accommodation.typeOfRoom"/>: </Typography></TableCell>
                   <TableCell className={classes.cell}>
-                    <Typography variant="body1">{accomendation[intl.locale].typeOfRooms}</Typography></TableCell></TableRow>
+                    <Typography variant="body1">{accommodation[intl.locale].typeOfRooms}</Typography></TableCell></TableRow>
                 <TableRow><TableCell className={classes.cell}>
-                  <Typography variant="body1"><FormattedMessage id="accomendation.breakfast"/>: </Typography></TableCell>
+                  <Typography variant="body1"><FormattedMessage id="accommodation.breakfast"/>: </Typography></TableCell>
                   <TableCell className={classes.cell}>
-                    <Typography variant="body1">{accomendation[intl.locale].breakfast}</Typography></TableCell></TableRow>
+                    <Typography variant="body1">{accommodation[intl.locale].breakfast}</Typography></TableCell></TableRow>
                 <TableRow><TableCell className={classes.cell}>
-                  <Typography variant="body1"><FormattedMessage id="accomendation.website"/>: </Typography></TableCell>
+                  <Typography variant="body1"><FormattedMessage id="accommodation.website"/>: </Typography></TableCell>
                   <TableCell className={classes.cell}>
-                    <Link variant="body1" href={accomendation[intl.locale].website} target="_blank"><FormattedMessage id="accomendation.clickHere"/></Link></TableCell></TableRow>
+                    <Link variant="body1" href={accommodation[intl.locale].website} target="_blank"><FormattedMessage id="accommodation.clickHere"/></Link></TableCell></TableRow>
                 <TableRow><TableCell className={classes.cell}>
-                  <Typography variant="body1"><FormattedMessage id="accomendation.booking"/>: </Typography></TableCell>
+                  <Typography variant="body1"><FormattedMessage id="accommodation.booking"/>: </Typography></TableCell>
                   <TableCell className={classes.cell}>
-                    <Typography variant="body1">{accomendation[intl.locale].booking}</Typography></TableCell></TableRow>
+                    <Typography variant="body1">{accommodation[intl.locale].booking}</Typography></TableCell></TableRow>
                 <TableRow><TableCell className={classes.cell}>
-                  <Typography variant="body1"><FormattedMessage id="accomendation.other"/>: </Typography></TableCell>
+                  <Typography variant="body1"><FormattedMessage id="accommodation.other"/>: </Typography></TableCell>
                   <TableCell className={classes.cell}>
-                    <Typography variant="body1">{accomendation[intl.locale].other}</Typography></TableCell></TableRow>
+                    <Typography variant="body1">{accommodation[intl.locale].other}</Typography></TableCell></TableRow>
               </TableBody> </Table>}
 
           </Paper>)}
-        <Paper className={classes.accomendationPaper}>
-          <Typography variant="h4"><FormattedMessage id="accomendation.otherPlaces"/></Typography>
+        <Paper className={classes.accommodationPaper}>
+          <Typography variant="h4"><FormattedMessage id="accommodation.otherPlaces"/></Typography>
           <ul>
             {otherPlaces.places.map((x, index) =>
               <li key={index}>
@@ -218,4 +218,4 @@ const AccomendationPage = (props) => {
     </>
   );
 }
-export default AccomendationPage
+export default AccommodationPage
