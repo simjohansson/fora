@@ -129,6 +129,31 @@ const accommodations = [
 
   }, 
 },
+{"sv-se":{
+  title: "Södviks gästgivaregård",
+  description: "Här kan du bo i lantliga rum och ta en kaffe i rosträdgården.",
+  distanceToParty: "6 km",
+  typeOfRooms: "3 dubbelrum och 1 trebäddsrum med toalett.",
+  priceCategory: "",
+  other: "Har cykeluthyrning och ett lånebibliotek.",
+  website: "https://sodviksgastgivaregard.se/",
+  booking: "Kontakta boendet och ange våra namn.",
+  breakfast: "Ingår och ryktet säger att det serveras gott kaffe!"
+
+},
+"en-gb":{
+  title: "Södviks gästgivaregård",
+  description: "Here you can stay in cosy rooms and take a coffee in the rose garden.",
+  distanceToParty: "6 km",
+  typeOfRooms: "3 doublerooms and a threebedroom with bathroom.",
+  priceCategory: "",
+  other: "There is a bikerental and a small library.",
+  website: "https://sodviksgastgivaregard.se/",
+  booking: "Contact the accommodation and mention our names.",
+  breakfast: "Included. The rumor says they serve great coffe."
+
+}, 
+},
 ]
 
 
