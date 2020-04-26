@@ -5,7 +5,7 @@
     "navigation.party":  "Fest",
     "navigation.rsvp":  "OSA",
     "home.imagehello": "Hej!",
-    "home.imagedescription": "Kul att du har hittat hit! Information om nytt boende har tillkommit.",
+    "home.imagedescription": "Kul att du har hittat hit! Vi gifter oss men inte än. <b>Nytt datum 3 juli 2021!</b>",
     "accommodation.title": "Boende",
     "accommodation.subtitle": "Här kommer lite tips var man kan vila sig innan och efter festen.",
     "accommodation.description": "Detta är bara några av alla möjliga boenden på Öland. Kanske hittar du ett annat ställe som lockar mer? Glöm bara inte av att boka i tid!",
@@ -20,7 +20,7 @@
 "accommodation.clickHere": "Klicka här",
 
 "wedding.title": "Vigsel",
-"wedding.firstSection": "Vigseln kommer äga rum 4 juli klockan 14.00 i Föra kyrka, Föra Kyrkgata 1, 387 91 Borgholm.",
+"wedding.firstSection": "Vigseln kommer äga rum 3 juli klockan 16.00 i Föra kyrka, Föra Kyrkgata 1, 387 91 Borgholm.",
 "wedding.secondSection": "Kommer du med bil finns en parkering vid festlokalen Föragården, Föra 88, 387 91 Borgholm. Därifrån är det gångavstånd till kyrkan. Närmaste busshållplats heter 'Föra vsk' och ligger 1,5 km från kyrkan. Har du funderingar hur du ska komma till kyrkan är det bara att höra av sig!",
 "wedding.whatToWearTitle": "Vad ska man då ha för kläder?",
 "wedding.whatToWearDescription": "Klädkoden för dagen är sommarfin så ta på dig något du tycker passar på ett bröllop och känner dig fin i!",
@@ -35,7 +35,8 @@
 "party.aboutToastmasters": "Med denna härliga trio har man aldrig tråkigt! Jenny, Julia och Matilda kan allt från handboll till fiske och vi lämnar med glädje över festen i deras händer!",
 
 "rsvp.title": "OSA",
-"rsvp.firstSection": "Meddela senast den <b>30 april</b> om du kan komma eller inte. OSA gör du på nedanstående länk, notera att varje person måste anmälas inviduellt. Du kan även höra av dig till Caroline eller Simon. Förutom din närvaro önskar vi även veta eventuell specialkost och om du vill hänga med oss på fredag kväll.",
+"rsvp.firstSection": "Nu var ni heta på gröten! Håll ut till 2021 så kan ni sedan OSA.",
+"rsvp.firstSectionNew": "Meddela senast den <b>30 april</b> om du kan komma eller inte. OSA gör du på nedanstående länk, notera att varje person måste anmälas inviduellt. Du kan även höra av dig till Caroline eller Simon. Förutom din närvaro önskar vi även veta eventuell specialkost och om du vill hänga med oss på fredag kväll.",
 "rsvp.bbqInfo": "På fredagen den 3 juli kommer det finnas möjlighet att träffas och äta lite tillsammans. För oss som är på plats kommer grillarna (om vädret tillåter) tändas vid STF Hagaby, Hagaby 17, 387 71 Löttorp. Mer information om tid och matupplägg kommer här senare, så håll er uppdaterade!",
 "rsvp.rsvpHere": "OSA här!"
 

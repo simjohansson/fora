@@ -1,5 +1,5 @@
 import React from "react";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 
 import { HeadImage } from "../components/headimage";
 import SEO from "../components/seo";
@@ -67,7 +67,7 @@ const IndexPage = props => {
           <FormattedMessage id="home.imagehello" />
         </div>
         <div className={classes.infoTextBlock}>
-          <FormattedMessage id="home.imagedescription" />
+         <FormattedHTMLMessage id="home.imagedescription" />
         </div>
       </div>
       <Container>

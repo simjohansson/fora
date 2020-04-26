@@ -35,7 +35,7 @@ const accommodations = [
     distanceToParty: "19 km",
     typeOfRooms: "Cottage, hammock, two to four bed rooms.",
     priceCategory: "Billigare",
-    other: "There will be a barbecue here on the Friday before the wedding. Sauna and outdoor gym are available.",
+    other: "Sauna and outdoor gym are available.", //There will be a barbecue here on the Friday before the wedding.
     website: "https://www.svenskaturistforeningen.se/boende/stf-hagabylantgarden-vandrarhem/",
     booking: "Contact Stf Hagaby.",
     breakfast: "Buy or fix your own."
@@ -47,7 +47,7 @@ const accommodations = [
     distanceToParty: "19 km",
     typeOfRooms: "Stuga, hängmatta, två till fyrbäddsrum.",
     priceCategory: "Billigare",
-    other: "Här kommer det arrangeras en grillning på fredagen innan bröllopet. Bastu och utegym finns tillgängligt.",
+    other: "Bastu och utegym finns tillgängligt.", //Här kommer det arrangeras en grillning på fredagen innan bröllopet.
     website: "https://www.svenskaturistforeningen.se/boende/stf-hagabylantgarden-vandrarhem/",
     booking: "Kontakta Stf Hagaby.",
     breakfast: "Köp till eller fixa eget."

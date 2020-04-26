@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Container, Typography } from "@material-ui/core";
 import { PartyImage } from "../components/partyimage";
@@ -27,7 +26,7 @@ const PartyPage = props => {
         <Typography variant="body1">
           <FormattedMessage id="party.secondSection" />
         </Typography>
-        <Typography variant="body1">
+        {/* <Typography variant="body1">
           <FormattedHTMLMessage id="party.thirdSection" />
         </Typography>
         <Typography variant="body1">
@@ -36,7 +35,7 @@ const PartyPage = props => {
         </Typography>
         <Typography variant="body1">
           <FormattedMessage id="party.telephone" />
-        </Typography>
+        </Typography> */}
         <br />
         <Typography variant="body1">
           <FormattedMessage id="party.aboutChildren" />

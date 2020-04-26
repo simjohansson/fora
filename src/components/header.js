@@ -30,7 +30,7 @@ const Header = ({ location, setLanguage }) => {
       <div
         className={container}
       >
-        <Typography className={headerText} variant="h5">4 juli 2020 Föra Öland
+        <Typography className={headerText} variant="h5">3 juli 2021 Föra Öland
       </Typography>
         <ReactFlagsSelect
          className={languagePicker}
