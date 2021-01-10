@@ -6,7 +6,6 @@ import { ToastMastersImage } from "../components/toastmatersimage";
 import Confetti from "react-confetti";
 import useWindowSize from "react-use/lib/useWindowSize";
 import FormattedMessage from "react-intl/lib/components/message";
-import { FormattedHTMLMessage } from "react-intl";
 const PartyPage = props => {
   const { width, height } = useWindowSize();
   return (

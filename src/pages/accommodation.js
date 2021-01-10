@@ -5,6 +5,7 @@ import { Container, Paper, Table, TableRow, TableCell, Link, TableBody } from "@
 import { makeStyles } from "@material-ui/core";
 import SEO from "../components/seo"
 import { useIntl, FormattedMessage } from "react-intl";
+import { AccomodationImage } from "../components/accoimage";
 
 const accommodations = [
   {"sv-se": {
@@ -80,31 +81,6 @@ const accommodations = [
   }, 
 },
   {"sv-se":{
-    title: "Wannborga",
-    description: "För det vinälskande sällskapet",
-    distanceToParty: "15 km",
-    typeOfRooms: "Två hus med flera dubbelrum",
-    priceCategory: "-",
-    other: "Hela huset måste hyras, perfekt för er som vill bo ihop.",
-    website: "http://wannborga.se/",
-    booking: "Kontakta brudparet.",
-    breakfast: "Oklart"
-
-  },
-  "en-gb":{
-    title: "Wannborga",
-    description: "For the wine-loving company",
-    distanceToParty: "15 km",
-    typeOfRooms: "Two houses with several double rooms.",
-    priceCategory: "-",
-    other: "The whole house must be rented, perfect for those who want to live together.",
-    website: "http://wannborga.se/",
-    booking: "Contact the bridal couple.",
-    breakfast: "Unclear"
-
-  }, 
-},
-  {"sv-se":{
     title: "Festlokalen",
     description: "Tänker du gå sist från festen? Bo gratis på plats!",
     distanceToParty: "En trappa",
@@ -158,7 +134,7 @@ const accommodations = [
 
 
 const otherPlaces = {
-  places: ["Källa hamn", "Wikegårds camping", "Södviks gästgivaregård", "Alvaret hotel och hostel", "Highway 136"]
+  places: ["Källa hamn", "Wikegårds camping", "Södviks gästgivaregård", "Alvaret hotel och hostel", "Highway 136", "Wannborga"]
 
 }
 const useStyles = makeStyles(theme => ({
@@ -189,8 +165,9 @@ const AccommodationPage = (props) => {
   return (
     <>
       <SEO title="Boende" />
+      <AccomodationImage />
       <Container>
-        <Typography variant="h2"><FormattedMessage id="accommodation.title"/></Typography>
+        <Typography variant="h1"><FormattedMessage id="accommodation.title"/></Typography>
 
         <Typography variant="body1"><FormattedMessage id="accommodation.subtitle"/></Typography>
         <br/>
