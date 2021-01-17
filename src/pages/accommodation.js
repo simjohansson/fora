@@ -63,7 +63,7 @@ const accommodations = [
     priceCategory: "-",
     other: "",
     website: "http://aleklintagard.se/",
-    booking: "Nämn Simon vid bokning, då rummen är preliminärt bokade. Hör gärna av dig till brudparet om du har bokat!",
+    booking: "Rummen är förbokade av Simon & Caroline. Så hör av dig till brudparet om du vill boka något av dessa rum",
     breakfast: "Tillgång till kök."
 
   },
@@ -75,7 +75,7 @@ const accommodations = [
     priceCategory: "-",
     other: "",
     website: "http://aleklintagard.se/",
-    booking: "Mention Simon when booking, as rooms are provisionally booked. Feel free to contact the bridal couple if you have booked!",
+    booking: "Contact the bridal couple if you want to stay here!",
     breakfast: "Access to kitchen."
 
   }, 
@@ -88,7 +88,7 @@ const accommodations = [
     priceCategory: "Gratis",
     other: "Ta med sovsäck och liggunderlag/madrass. Obs! Dusch saknas.",
     website: "",
-    booking: "Kontakta brudparet",
+    booking: "Kontakta brudparet.",
     breakfast: "Saknas om du inte har tur att hitta några kvarglömda chips."
 
   },
@@ -109,11 +109,11 @@ const accommodations = [
   title: "Södviks gästgivaregård",
   description: "Här kan du bo i lantliga rum och ta en kaffe i rosträdgården.",
   distanceToParty: "6 km",
-  typeOfRooms: "3 dubbelrum och 1 trebäddsrum med toalett.",
+  typeOfRooms: "Ett familjerum och ett dubbelrum",
   priceCategory: "",
   other: "Har cykeluthyrning och ett lånebibliotek.",
   website: "https://sodviksgastgivaregard.se/",
-  booking: "Kontakta boendet och ange våra namn.",
+  booking: "Kontakta brudparet.",
   breakfast: "Ingår och ryktet säger att det serveras gott kaffe!"
 
 },
@@ -121,11 +121,11 @@ const accommodations = [
   title: "Södviks gästgivaregård",
   description: "Here you can stay in cosy rooms and take a coffee in the rose garden.",
   distanceToParty: "6 km",
-  typeOfRooms: "3 doublerooms and a threebedroom with bathroom.",
+  typeOfRooms: "1 familyroom and 1 doubleroom",
   priceCategory: "",
   other: "There is a bikerental and a small library.",
   website: "https://sodviksgastgivaregard.se/",
-  booking: "Contact the accommodation and mention our names.",
+  booking: "Contact the bridal couple.",
   breakfast: "Included. The rumor says they serve great coffe."
 
 }, 
