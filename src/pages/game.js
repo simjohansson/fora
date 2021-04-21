@@ -24,7 +24,7 @@ const GamePage = () => {
   const classes = useStyles();
   const [highscore, setHighscore] = useState([]);
   useEffect(() => {
-    fetch(process.env.GAME_BACKEND_URL +`/api/highscore`)
+    fetch("https://save-the-wed-backend.herokuapp.com" +`/api/highscore`)
       .then(response => response.json()) // parse JSON from request
       .then(resultData => {
         setHighscore(resultData);
@@ -33,7 +33,7 @@ const GamePage = () => {
   return (
     <>
       <SEO title="Game" />
-      <iframe className={classes.iframestyle} scrolling="no" src={process.env.GAME_URL}></iframe>
+      <iframe className={classes.iframestyle} scrolling="no" src={"https://save-the-wed.herokuapp.com"}></iframe>
       <Container className={classes.container}>
         <Typography variant="h1"><FormattedMessage id="game.title" /></Typography>
         <Typography variant="body1"><FormattedMessage id="game.firstSection" /></Typography>
