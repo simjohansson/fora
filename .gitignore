@@ -1,26 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@simjohansson 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-15
-32
-637442gatsbyjs/gatsby-starter-default
- Code Pull requests 0 Actions Projects 0 Wiki Security Insights
-gatsby-starter-default/.gitignore
-@DSchau DSchau chore: add pnp to gitignore (#116)
-8f875d9 on 10 Nov 2018
-@KyleAMathews@DSchau@emilyaviva@saviomuc@pravdomil@singingwolfboy
-70 lines (51 sloc)  973 Bytes
-  
 # Logs
 logs
 *.log
@@ -90,15 +67,5 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+.env.development

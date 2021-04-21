@@ -4,6 +4,7 @@
     "navigation.wedding":  "Vigsel",
     "navigation.party":  "Fest",
     "navigation.rsvp":  "OSA",
+    "navigation.game":  "Spel",
     "home.imagehello": "Hej!",
     "home.imagedescription": "Undrar du hur våra tankar kring bröllopet den 3 juli går? Då ska du veta att vi håller alla våra tummar för att vi ska kunna fira tillsammans med dig. Boka inom kort ett boende och öva upp dina bästa danssteg så hör ni av oss snart igen.",
     "accommodation.title": "Boende",
@@ -38,6 +39,8 @@
 "rsvp.firstSection": "Nu var ni heta på gröten! Håll ut till 2021 så kan ni sedan OSA.",
 "rsvp.firstSectionNew": "Meddela senast den <b>30 april</b> om du kan komma eller inte. OSA gör du på nedanstående länk, notera att varje person måste anmälas inviduellt. Du kan även höra av dig till Caroline eller Simon. Förutom din närvaro önskar vi även veta eventuell specialkost och om du vill hänga med oss på fredag kväll.",
 "rsvp.bbqInfo": "På fredagen den 3 juli kommer det finnas möjlighet att träffas och äta lite tillsammans. För oss som är på plats kommer grillarna (om vädret tillåter) tändas vid STF Hagaby, Hagaby 17, 387 71 Löttorp. Mer information om tid och matupplägg kommer här senare, så håll er uppdaterade!",
-"rsvp.rsvpHere": "OSA här!"
+"rsvp.rsvpHere": "OSA här!",
 
+"game.title": "Save the Wed",
+"game.firstSection": "Försök att styra Caroline så att hon kan komma fram till Simon, men se upp för Coronavirus! Du styr genom piltangenterna om du sitter vid ett tangenbord och hoppar med uppåtpil. Du kan också styra Caroline genom att klicka på den sidan av skärmen du vill att hon ska springa, klicka en gång till för att hoppa. Lycka till!"
 }

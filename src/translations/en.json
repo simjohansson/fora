@@ -4,6 +4,7 @@
     "navigation.wedding":  "Wedding",
     "navigation.party":  "Party",
     "navigation.rsvp":  "RSVP",
+    "navigation.game":  "Game",
     "home.imagehello": "Hello!",
     "home.imagedescription": "The wedding is still planned to occur on the 3rd of July 2021. We hope the situation is improved so we can meet you at the party.",
     "accommodation.title": "Accommodation",
@@ -36,5 +37,8 @@
 "rsvp.firstSectionNew": "RSVP before the <b>30th of April</b> and let us know if you can make it or not. Do the RSVP through the link below. Please note that the form applies to one person. If you are going to answer for several people, fill out the form again after submitting. You can also contact Caroline or Simon. In addition to your presence, we also wish to know any special diet and if you want to hang out with us on Friday night.",
 "rsvp.firstSection": "Please comeback in 2021!",
 "rsvp.bbqInfo": "On Friday, July 3, there will be the opportunity to meet and dine together. For those of us who are on site, the BBQs (if the weather permits it) will be lit at STF Hagaby, Hagaby 17, 387 71 Löttorp. More information about time and food arrangements will be specified here later, so stay tuned!",
-"rsvp.rsvpHere": "RSVP here!"
+"rsvp.rsvpHere": "RSVP here!",
+
+"game.title": "Save the Wed",
+"game.firstSection": "Try to get all the points!"
 }
