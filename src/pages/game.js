@@ -23,8 +23,10 @@ const useStyles = makeStyles(theme => ({
 const GamePage = () => {
   const classes = useStyles();
   const [highscore, setHighscore] = useState([]);
+  const [loaded, setLoaded] = useState(true);
+
   useEffect(() => {
-    fetch("https://save-the-wed-backend.herokuapp.com" +`/api/highscore`)
+    fetch("https://save-the-wed-backend.herokuapp.com" + `/api/highscore`)
       .then(response => response.json()) // parse JSON from request
       .then(resultData => {
         setHighscore(resultData);
@@ -33,8 +35,9 @@ const GamePage = () => {
   return (
     <>
       <SEO title="Game" />
-      <iframe className={classes.iframestyle} scrolling="no" src={"https://save-the-wed.herokuapp.com"}></iframe>
+      <iframe onLoad={() => setLoaded(false)} className={classes.iframestyle} scrolling="no" src={"https://save-the-wed.herokuapp.com"}></iframe>
       <Container className={classes.container}>
+        {loaded && <Typography variant="h2">Laddar...</Typography>}
         <Typography variant="h1"><FormattedMessage id="game.title" /></Typography>
         <Typography variant="body1"><FormattedMessage id="game.firstSection" /></Typography>
         <Typography variant="h2">Highscore</Typography>
