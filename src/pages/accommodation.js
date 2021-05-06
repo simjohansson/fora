@@ -7,28 +7,28 @@ import { useIntl, FormattedMessage } from "react-intl";
 import { AccomodationImage } from "../components/accoimage";
 
 const accommodations = [
-//   {"sv-se": {
-//     title: "ÖlandsRo",
-//     description: "Boendet närmst lokalen, här kommer det finnas en fin fin frukost!",
-//     distanceToParty: "1 km",
-//     priceCategory: "Dyrare",
-//     typeOfRooms: "Tvåbäddsrum på övervåning, delad toalett och dusch.",
-//     other: "Ganska litet ställe",
-//     website: "https://olandsro.se/",
-//     booking: "Kontakta bröllopsparet",
-//     breakfast: "Ingår"
-//   },
-// "en-gb": {
-//   title: "ÖlandsRo",
-//   description: "The accommodation closest to the party, here there will be a nice breakfast!",
-//   distanceToParty: "1 km",
-//   priceCategory: "Dyrare",
-//   typeOfRooms: "Upstairs twin room, shared toilet and shower.",
-//   other: "Just a few rooms.",
-//   website: "https://olandsro.se/",
-//   booking: "Contact the bridal couple.",
-//   breakfast: "Included"
-// }},
+  {"sv-se": {
+    title: "ÖlandsRo",
+    description: "Boendet närmst lokalen, här kommer det finnas en fin fin frukost!",
+    distanceToParty: "1 km",
+    priceCategory: "Dyrare",
+    typeOfRooms: "Tvåbäddsrum på övervåning, delad toalett och dusch.",
+    other: "Ganska litet ställe",
+    website: "https://olandsro.se/",
+    booking: "Använd koden CAROSIM på bokningen",
+    breakfast: "Ingår"
+  },
+"en-gb": {
+  title: "ÖlandsRo",
+  description: "The accommodation closest to the party, here there will be a nice breakfast!",
+  distanceToParty: "1 km",
+  priceCategory: "Dyrare",
+  typeOfRooms: "Upstairs twin room, shared toilet and shower.",
+  other: "Just a few rooms.",
+  website: "https://olandsro.se/",
+  booking: "Use the code CAROSIM during the booking",
+  breakfast: "Included"
+}},
   {"en-gb":{
     title: "Stf Hagaby",
     description: "Big hostel! Here will most of the guests stay.",
