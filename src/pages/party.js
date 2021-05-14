@@ -7,7 +7,7 @@ import Confetti from "react-confetti";
 import useWindowSize from "react-use/lib/useWindowSize";
 import FormattedMessage from "react-intl/lib/components/message";
 const PartyPage = props => {
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
   return (
     <>
       <SEO title="Fest" />
