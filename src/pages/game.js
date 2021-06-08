@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SEO from "../components/seo";
-import { useIntl, FormattedMessage } from "react-intl";
+import { FormattedMessage } from "react-intl";
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, Container } from "@material-ui/core";
 
@@ -26,7 +26,7 @@ const GamePage = () => {
   const [loaded, setLoaded] = useState(true);
 
   useEffect(() => {
-    fetch("https://save-the-wed-backend.herokuapp.com" + `/api/highscore`)
+    fetch("https://save-the-wed-backend.herokuapp.com/api/highscore")
       .then(response => response.json()) // parse JSON from request
       .then(resultData => {
         setHighscore(resultData);
@@ -35,7 +35,7 @@ const GamePage = () => {
   return (
     <>
       <SEO title="Game" />
-      <iframe onLoad={() => setLoaded(false)} className={classes.iframestyle} scrolling="no" src={"https://save-the-wed.herokuapp.com"}></iframe>
+      <iframe title="Game" onLoad={() => setLoaded(false)} className={classes.iframestyle} scrolling="no" src={"https://save-the-wed.herokuapp.com"}></iframe>
       <Container className={classes.container}>
         {loaded && <Typography variant="h2">Laddar...</Typography>}
         <Typography variant="h1"><FormattedMessage id="game.title" /></Typography>

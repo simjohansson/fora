@@ -2,7 +2,6 @@
 import React from "react";
 import Link from './link';
 import { FormattedMessage } from "react-intl";
-import { navigate } from "gatsby";
 export const Navigation = (props) => {
   const [showDropDownMenu, setShowDropDownMenu] = React.useState(false);
     return (
@@ -13,6 +12,7 @@ export const Navigation = (props) => {
     <Link className={props.location.pathname === '/party/' ? 'active' : undefined}  to="/party/" onClick={() =>{setShowDropDownMenu(false);}}><FormattedMessage id="navigation.party"/></Link>
     <Link className={props.location.pathname === '/rsvp/' ? 'active' : undefined}  to="/rsvp/" onClick={() =>{setShowDropDownMenu(false);}}><FormattedMessage id="navigation.rsvp"/></Link>
     <Link className={props.location.pathname === '/game/' ? 'active' : undefined}  to="/game/" onClick={() =>{setShowDropDownMenu(false);}}><FormattedMessage id="navigation.game"/></Link>
+    <Link className={props.location.pathname === '/game/' ? 'active' : undefined} target="_blank" rel="noreferrer" href="https://onskelista.se/w/brollop-35" >Önskelista</Link>
     <a href="#" onClick={() => setShowDropDownMenu(!showDropDownMenu)}  className="icon" >&#9776;</a>
   </div>)
 }
