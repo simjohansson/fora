@@ -27,14 +27,14 @@ const PartyPage = props => {
         </Typography>
         {/* <Typography variant="body1">
           <FormattedHTMLMessage id="party.thirdSection" />
-        </Typography>
+        </Typography> */}
         <Typography variant="body1">
           <FormattedHTMLMessage id="party.email" />
           <a style={ {color: 'darkgreen' }} href='mailto:forabrollop@gmail.com'>forabrollop@gmail.com</a>
         </Typography>
         <Typography variant="body1">
           <FormattedMessage id="party.telephone" />
-        </Typography> */}
+        </Typography>
         <br />
         <Typography variant="body1">
           <FormattedMessage id="party.aboutChildren" />
